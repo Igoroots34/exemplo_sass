@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f7f1e3;
+  color: #000;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #cd6133;
+  color: #ffffff;
+  text-align: center;
+}
+header h1 {
+  font-weight: normal;
+}
+
+.form-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 760px;
+}
+.form-container h2 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+}
+.form-container form {
+  max-width: 480px;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.form-container form label {
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-container form input {
+  margin-bottom: 16px;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border: 3px solid #cd6133;
+  background-color: transparent;
+}
+.form-container form input:focus {
+  background-color: #d1ccc0;
+  outline: 0px;
+}
+.form-container form button {
+  margin-bottom: 16px;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #cd6133;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+}
+.form-container form button:hover {
+  background-color: #ff793f;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
